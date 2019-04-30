@@ -193,9 +193,8 @@ class Home extends Component {
       <main>
         <div id="homepageWrapper">
           <div id="sidePane">
-            <h1>MedRec</h1>
-            <h2>A decentralized medical records management system.</h2>
-            <p>v1.0</p>
+            <h1>Medical Chain</h1>
+            <h2>FE442: Prototype demonstration</h2>
             <div id="logoSprite"></div>
           </div>
           <div  id="loginPane" >
@@ -214,27 +213,6 @@ class Home extends Component {
                     value={this.state.loginPassword}/>
                   <button className="loginStyle" onClick={this.login}>Login</button>
                 </div>
-              </div>
-            </div>
-            <div id={contractStyle}>
-              <h3>Select contract to be deployed</h3>
-              <div>
-                <input type="radio" checked={this.state.contract === 'agent'} value="agent"
-                  onChange={this.selectContract}></input>Default
-                <span className="preview"
-                  id="agent" onClick={this.enablePreviewModal}>Preview</span>
-              </div>
-              <div>
-                <input type="radio" checked={this.state.contract === 'group'} value="group"
-                  onChange={this.selectContract}></input>Group
-                <span className="preview"
-                  id="group" onClick={this.enablePreviewModal}>Preview</span>
-              </div>
-              <div>
-                <input type="radio" checked={this.state.contract === 'DMswitch'} value="DMswitch"
-                  onChange={this.selectContract}></input>DM Switch
-                <span className="preview"
-                  id="DMswitch" onClick={this.enablePreviewModal}>Preview</span>
               </div>
             </div>
             <div id={identityStyle}>

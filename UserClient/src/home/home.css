@@ -74,7 +74,7 @@ body {
   /*opacity: 0;*/
   /*border: 1px solid green;*/
   width: 49vw;
-  height: 50px;
+  height: 90px;
   position: absolute;
   margin: 0 auto;
   bottom: 12vh;
@@ -110,7 +110,7 @@ body {
 }
 
 #loginPatient {
-  background: rgba(186,203,204,0.41);
+  background: rgb(204, 0, 0);
 
 }
 
